@@ -1,0 +1,115 @@
+:root {
+  /* Colors variable */
+  --black: rgb(0, 0, 0);
+  --darker-blue: rgb(5, 5, 29);
+  --dark-blue: rgb(12, 12, 70);
+  --light-blue: rgb(13, 100, 176);
+  --lighter-blue: rgb(180, 220, 255);
+  --gray: rgb(167, 167, 167);
+  --light-gray: rgb(210, 210, 210);
+  --lighter-gray: rgb(243, 243, 243);
+  --off-white: rgb(252, 252, 252);
+  --white: rgb(255, 255, 255);
+
+  --primary-color: #090909;
+  --secondary-color: #f8ce44;
+
+  /* UI element  variable */
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: var(--dark-blue);
+}
+
+/* ============ Typography ============ */
+.wm-heading-1 {
+  font-weight: 500;
+  font-size: 140px;
+  line-height: 190px;
+}
+.wm-heading-2 {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 90px;
+}
+.wm-heading-3 {
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.wm-text-xxl {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 54px;
+}
+.wm-text-xl {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.wm-text-lg {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+}
+.wm-text-md {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+.wm-text-sm {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.wm-text-xs {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.wm-text-justify {
+  text-align: justify;
+}
+
+/* ======= component based class   ====== */
+/* ======= Responsive CSS   ====== */
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+  /* =======  Modify default CSS   ====== */
+
+  .w-50,
+  .w-25,
+  .w-75 {
+    width: 100% !important;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+}
