@@ -11,6 +11,13 @@
   --off-white: rgb(252, 252, 252);
   --white: rgb(255, 255, 255);
 
+  /* font family variable */
+
+  --font-1: ;
+  --font-2: ;
+  --font-3: ;
+  --font-body: "Inter", sans-serif;
+
   --primary-color: #090909;
   --secondary-color: #f8ce44;
 
@@ -29,10 +36,15 @@ a {
   color: var(--dark-blue);
 }
 
-/* ============ Typography ============ */
+body {
+  background-color: #fff;
+  font-family: var(--font-body);
+}
+
+/* ============ Typography Classes ============ */
 .wm-heading-1 {
-  font-weight: 500;
-  font-size: 140px;
+  font-size: 150px;
+  font-weight: 700;
   line-height: 190px;
 }
 .wm-heading-2 {
@@ -78,11 +90,16 @@ a {
   line-height: 24px;
 }
 
+.wm-text-right {
+  text-align: right;
+}
 .wm-text-justify {
   text-align: justify;
 }
 
-/* ======= component based class   ====== */
+/* ======= Spacing classes   ====== */
+/* ======= component based classes   ====== */
+
 /* ======= Responsive CSS   ====== */
 
 /* Extra small devices (phones, 600px and down) */
@@ -97,19 +114,33 @@ a {
   }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Small devices (portrait tablets and large phones, 600px and up)  */
 @media only screen and (max-width: 600px) {
+  body {
+    background-color: red;
+  }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
+/* Medium devices (landscape tablets, 768px and up)  */
 @media only screen and (min-width: 601px) and (max-width: 767px) {
+  body {
+    background-color: green;
+  }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
+/* Large devices (laptops/desktops, 992px and up)  */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    background-color: blue;
+  }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up)  */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  body {
+    background-color: yellow;
+  }
 }
+
+/* 1200px and up default value   */
