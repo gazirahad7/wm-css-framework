@@ -11,15 +11,14 @@
   --off-white: rgb(252, 252, 252);
   --white: rgb(255, 255, 255);
 
+  --primary-color: #090909;
+  --secondary-color: #f8ce44;
   /* font family variable */
 
   --font-1: ;
   --font-2: ;
   --font-3: ;
   --font-body: "Inter", sans-serif;
-
-  --primary-color: #090909;
-  --secondary-color: #f8ce44;
 
   /* UI element  variable */
 }
@@ -42,22 +41,23 @@ body {
 }
 
 /* ============ Typography Classes ============ */
-.wm-heading-1 {
+.wm-h-1 {
   font-size: 150px;
   font-weight: 700;
   line-height: 190px;
 }
-.wm-heading-2 {
+.wm-h-2 {
   font-weight: 700;
   font-size: 72px;
   line-height: 90px;
 }
-.wm-heading-3 {
+.wm-h-3 {
   font-weight: 500;
   font-size: 60px;
   line-height: 78px;
 }
-
+.wm-h-4 {
+}
 .wm-text-xxl {
   font-weight: 400;
   font-size: 36px;
@@ -92,6 +92,9 @@ body {
 
 .wm-text-right {
   text-align: right;
+}
+.wm-text-center {
+  text-align: center;
 }
 .wm-text-justify {
   text-align: justify;
